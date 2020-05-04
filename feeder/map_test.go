@@ -1,9 +1,10 @@
 package feeder_test
 
 import (
-	"github.com/golobby/config/feeder"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/sayuthisobri/config/feeder"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMap_Feed(t *testing.T) {

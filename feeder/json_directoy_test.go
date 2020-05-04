@@ -1,10 +1,11 @@
 package feeder_test
 
 import (
-	"github.com/golobby/config/feeder"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
+
+	"github.com/sayuthisobri/config/feeder"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_JsonDirectory_Feed_Not_Existing_Dir_It_Should_Return_Error(t *testing.T) {

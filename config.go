@@ -4,13 +4,14 @@ package config
 
 import (
 	"errors"
-	"github.com/golobby/config/env"
 	"os"
 	"os/signal"
 	"strconv"
 	"strings"
 	"sync"
 	"syscall"
+
+	"github.com/sayuthisobri/config/env"
 )
 
 // Feeder is an interface for config feeders that provide content of a config instance.

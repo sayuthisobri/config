@@ -14,15 +14,15 @@ before_install:
   - go get github.com/mattn/goveralls
 
 script:
-  - go test -v github.com/golobby/config/env -coverprofile=env.coverprofile
-  - go test -v github.com/golobby/config/feeder -coverprofile=feeder.coverprofile
-  - go test -v github.com/golobby/config -coverprofile=config.coverprofile
+  - go test -v github.com/sayuthisobri/config/env -coverprofile=env.coverprofile
+  - go test -v github.com/sayuthisobri/config/feeder -coverprofile=feeder.coverprofile
+  - go test -v github.com/sayuthisobri/config -coverprofile=config.coverprofile
   - gover
   - goveralls -race -coverprofile gover.coverprofile -service travis-ci
 
 notifications:
   email:
     recipients:
-      - info@miladrahimi.com
+      - tech@msms.work
     on_success: change
     on_failure: always

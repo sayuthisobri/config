@@ -1,9 +1,10 @@
 package feeder_test
 
 import (
-	"github.com/golobby/config/feeder"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/sayuthisobri/config/feeder"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_Json_Feed_Not_Existing_File_It_Should_Return_Error(t *testing.T) {

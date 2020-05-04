@@ -2,12 +2,13 @@ package config_test
 
 import (
 	json2 "encoding/json"
-	"github.com/golobby/config"
-	"github.com/golobby/config/feeder"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/sayuthisobri/config"
+	"github.com/sayuthisobri/config/feeder"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_Config_Set_Get_With_A_Simple_Key_String_Value(t *testing.T) {

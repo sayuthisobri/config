@@ -1,11 +1,11 @@
-[![GoDoc](https://godoc.org/github.com/golobby/config?status.svg)](https://godoc.org/github.com/golobby/config)
-[![Build Status](https://travis-ci.org/golobby/config.svg?branch=master)](https://travis-ci.org/golobby/config)
-[![Go Report Card](https://goreportcard.com/badge/github.com/golobby/config)](https://goreportcard.com/report/github.com/golobby/config)
-[![Coverage Status](https://coveralls.io/repos/github/golobby/config/badge.svg?branch=master)](https://coveralls.io/github/golobby/config?branch=master)
+[![GoDoc](https://godoc.org/github.com/sayuthisobri/config?status.svg)](https://godoc.org/github.com/sayuthisobri/config)
+[![Build Status](https://travis-ci.org/sayuthisobri/config.svg?branch=master)](https://travis-ci.org/sayuthisobri/config)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sayuthisobri/config)](https://goreportcard.com/report/github.com/sayuthisobri/config)
+[![Coverage Status](https://coveralls.io/repos/github/sayuthisobri/config/badge.svg?branch=master)](https://coveralls.io/github/sayuthisobri/config?branch=master)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
 # Config
-GoLobby Config is a lightweight yet powerful config package for Go projects. 
+sayuthisobri Config is a lightweight yet powerful config package for Go projects. 
 It takes advantage of env files and OS variables alongside config files to be your ultimate requirement.
 
 ## Documentation
@@ -17,7 +17,7 @@ It requires Go `v1.11` or newer versions.
 To install this package run the following command in the root of your project
 
 ```bash
-go get github.com/golobby/config
+go get github.com/sayuthisobri/config
 ```
 
 ### A simple example
@@ -85,7 +85,7 @@ Storing configuration data in a JSON file could be a brilliant idea. The example
 
 ```json
 {
-  "name": "MyAppUsingGoLobbyConfig",
+  "name": "MyAppUsingsayuthisobriConfig",
   "version": 3.14,
   "numbers": [
     1,
@@ -339,4 +339,4 @@ If it also wasn't in the environment file, it'd eventually return the value stor
 
 ## License
 
-GoLobby Config is released under the [MIT License](http://opensource.org/licenses/mit-license.php).
+sayuthisobri Config is released under the [MIT License](http://opensource.org/licenses/mit-license.php).

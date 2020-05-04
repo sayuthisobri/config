@@ -1,9 +1,10 @@
 package env_test
 
 import (
-	"github.com/golobby/config/env"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/sayuthisobri/config/env"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_Load_It_Should_Return_Error_When_File_Not_Found(t *testing.T) {
